@@ -285,3 +285,42 @@ hr{
     color: rgb(254, 224, 179);
 }
 /* Service section ended  */
+
+
+/* about section started */
+.about{
+    background-image:linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url(Assets/RP_Alloys/chester-alvarez-bphc6kyobMg-unsplash\ 2.png);
+    min-height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20%;
+    position: relative;
+    color: white;
+    padding-left: 300px;
+    padding-top:250px;
+}
+.about h1{
+    font-size: 40px;
+}
+.about-icon{
+    display: flex;
+    align-items: center;
+}
+.cart{
+    margin-right: 5rem;
+}
+.cart span{
+    display: block;
+    margin-bottom: 10px;
+}
+.number{
+    font-size: 25px;
+}
+.cart img{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+/* about section ended */
