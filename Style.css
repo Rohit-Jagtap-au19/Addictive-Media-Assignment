@@ -387,7 +387,32 @@ button{
     width: 100px;
     color: white;
 }
-
 /* contact section ended */
 
+/* footer section started */
+.footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding:20px 100px;
+}
+
+.footer-mid{
+    display: flex;
+    margin: 40px;
+    align-items: center;
+}
+.footer-left{
+    margin:0 30px;
+}
+.footer-left ul{
+    margin-top: 20px;
+}
+.footer-right ul{
+    padding-top:60px;
+}
+/* footer section ended */
 
