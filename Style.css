@@ -24,4 +24,7 @@ a{
     border-bottom: 1px solid black;
     color: black;
 }
+.material-symbols-outlined{
+    cursor: pointer;
+}
 /* navbar style end */
