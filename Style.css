@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,52 +6,107 @@
 }
 
 /* navbar style start */
-.navbar{
+.navbar {
     margin: 10px;
     padding: 10px;
     letter-spacing: 1px;
 }
-.list{
+.list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.list-item{
+
+.list-item {
     list-style: none;
     font-size: 18px;
 }
-a{
+a {
     text-decoration: none;
     border-bottom: 1px solid black;
     color: black;
 }
-.material-symbols-outlined{
+.material-symbols-outlined {
     cursor: pointer;
 }
+
 /* navbar style end */
 
 /* Hero banner 1 start */
-.container{
+.container {
     margin: 10px 50px;
 }
-
-.hero-banner{
+.hero-banner {
     position: relative;
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(Assets/bg1.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(Assets/bg1.jpg);
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
-h1{
+.white {
     position: absolute;
     color: white;
     font-size: 60px;
     font-weight: 700;
     top: 100px;
     left: 100px;
+    line-height: 60px;
 }
 
-
 /* Hero banner 1 end */
+
+/* about us start */
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading {
+    margin-right: 50px;
+}
+.title {
+    color: red;
+}
+.title-2 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.content{
+    width: 30%;
+    margin-top: 15%;
+}
+
+/* about us end */
+
+/* info section start */
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.count h1{
+    color: black;
+    display: inline;
+    font-size: 50px;
+}
+.count{
+    margin-right: 50px;
+    text-align: center;
+    border-right: 1px solid grey;
+    padding-right: 50px;
+}
+.plus{
+    color:red;
+    font-size: 60px;
+    font-weight: 500;
+}
+.last{
+    border: none;
+}
+
+/* info section end */
+
