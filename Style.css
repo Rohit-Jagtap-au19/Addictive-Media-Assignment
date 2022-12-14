@@ -322,5 +322,29 @@ hr{
     height: 50px;
     margin-top: 50px;
 }
-
 /* about section ended */
+
+/* client section started */
+.client{
+    text-align: center;
+    margin: 100px 200px;
+    padding: 20px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.images img{
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.client span{
+    color: red;
+}
+/* client section ended */
+
+
