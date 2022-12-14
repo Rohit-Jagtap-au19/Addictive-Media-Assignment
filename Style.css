@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* navbar style start */
@@ -28,3 +29,29 @@ a{
     cursor: pointer;
 }
 /* navbar style end */
+
+/* Hero banner 1 start */
+.container{
+    margin: 10px 50px;
+}
+
+.hero-banner{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(Assets/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    top: 100px;
+    left: 100px;
+}
+
+
+/* Hero banner 1 end */
