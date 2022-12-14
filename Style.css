@@ -347,4 +347,47 @@ hr{
 }
 /* client section ended */
 
+/* contact section started */
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.form{
+    background-color: #0E3466;
+    width: 100%;
+    padding: 100px 200px;
+}
+.inputs{
+    width: 100%;
+    position: relative;
+}
+.form h1{
+    font-size: 40px;
+    color: white;
+}
+.inputs input{
+    width: 80%;
+    height: 60px;
+    margin-top: 30px;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+.inputs span{
+    position: absolute;
+    margin: 40px 10px;
+    font-size: 32px;
+}
+button{
+    background-color: red;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    color: white;
+}
+
+/* contact section ended */
+
 
