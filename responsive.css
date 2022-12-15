@@ -96,6 +96,71 @@
 }
 /* features section started */
 
+/* Service section started  */
+.service {
+    top: 100px;
+    min-height: 30vh;
+    padding: 0 10px;
+}
+.service-heading h2 {
+    font-size: 2rem;
+}
+.middle {
+    top: 12px;
+}
+.bottom {
+    top: 22px;
+}
+.whitespace {
+    top: 25px;
+    height: 25px;
+}
+.whitespace-2 {
+    top: 35px;
+    height: 25px;
+}
+.intro span {
+    font-size: 4rem;
+    top: 25%;
+    left: 20px;
+}
+.intro p {
+    top: 32%;
+    left: 60px;
+    line-height: 20px;
+    padding: 10px;
+}
+.services {
+    top: 80%;
+    height: 100%;
+    padding: 40px;
+    flex-direction: column;
+    /* position: relative; */
+}
+hr{
+    display: none;
+}
+.left{
+    position: absolute;
+    top: 0;
+}
+.left span, .right span{
+    display: none;
+}
+.left1, .left2, .left3,.right1, .right2, .right3{
+    margin-bottom: 30px;
+}
+.small-icons{
+    margin: 10px 15px;
+}
+.right{
+    position: absolute;
+    top: 210%;
+    padding: 10px 10px;
+}
+/* Service section ended  */
+
+
 
 
 
