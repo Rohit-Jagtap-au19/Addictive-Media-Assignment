@@ -1,0 +1,77 @@
+@media screen and (max-width:360px){
+ /* navbar started */
+.navbar{
+    margin: 0;
+    left: 0;
+    width: 100%;
+}
+
+.list-item{
+    font-size: 15px;
+    cursor: pointer;
+}
+/* navbar ended */
+
+/* hero banner started */
+.container{
+    margin: 10px 10px;
+}
+.hero-banner {
+    position: relative;
+    min-height: 50vh;
+}
+.white {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    line-height: 40px;
+    top: 130px;
+    left: 30px;
+}
+/* hero banner ended */
+
+/* About us started */
+.team{
+    flex-direction: column;
+}
+.heading {
+    margin-right: 0;
+}
+.title-2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.content {
+    width: 100%;
+    margin-top: 0;
+    padding: 30px;
+}
+.info {
+    margin: 10px 0;
+}
+.count h1 {
+    color: black;
+    display: inline;
+    font-size: 30px;
+}
+.count {
+    margin-right: 10px;
+    text-align: center;
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+.plus {
+    color: red;
+    font-size: 30px;
+    font-weight: 500;
+}
+.last {
+    border: none;
+}
+/* About us ended */
+
+
+
+
+}
