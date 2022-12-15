@@ -135,14 +135,12 @@
     height: 100%;
     padding: 40px;
     flex-direction: column;
-    /* position: relative; */
 }
 hr{
     display: none;
 }
 .left{
     position: absolute;
-    top: 0;
 }
 .left span, .right span{
     display: none;
@@ -160,6 +158,36 @@ hr{
 }
 /* Service section ended  */
 
+/* about section started */
+.about{
+    min-height: 40vh;
+    margin-top: 300%;
+    padding-left: 10px;
+    padding-top:30px;
+}
+.about h1{
+    font-size: 20px;
+}
+.about p{
+    font-size: 15px;
+    padding: 10px 20px;
+}
+.cart{
+    margin: 15px;
+}
+.number{
+    font-size: 14px;
+}
+.cart img{
+    margin-top: 10px;
+}
+.cart span{
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* about section ended */
 
 
 
