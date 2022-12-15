@@ -25,6 +25,11 @@ a {
     text-decoration: none;
     border-bottom: 1px solid black;
     color: black;
+    cursor: pointer;
+}
+.list li i{
+    margin-left: 10px;
+    cursor: pointer;
 }
 .material-symbols-outlined {
     cursor: pointer;
@@ -370,13 +375,21 @@ hr{
     width: 80%;
     height: 60px;
     margin-top: 30px;
-    padding: 20px 50px;
+    padding: 20px 60px;
     border-radius: 10px;
 }
-.inputs span{
+.inputs textarea{
+    width: 80%;
+    height: 100px;
+    margin-top: 30px;
+    padding: 20px 60px;
+    border-radius: 10px;
+}
+
+.inputs i{
     position: absolute;
-    margin: 40px 10px;
-    font-size: 32px;
+    margin: 45px 15px;
+    font-size: 28px;
 }
 button{
     background-color: red;
@@ -386,6 +399,7 @@ button{
     height: 40px;
     width: 100px;
     color: white;
+    cursor: pointer;
 }
 /* contact section ended */
 
@@ -399,10 +413,12 @@ button{
     color: white;
     padding:20px 100px;
 }
-
+.footer-text a{
+    color: white;
+}
 .footer-mid{
     display: flex;
-    margin: 40px;
+    justify-content: space-between;
     align-items: center;
 }
 .footer-left{
@@ -413,6 +429,11 @@ button{
 }
 .footer-right ul{
     padding-top:60px;
+}
+.footer-icon{
+    margin: 15px 150px;
+    word-spacing: 10px;
+    cursor: pointer;
 }
 /* footer section ended */
 
