@@ -263,6 +263,49 @@ iframe{
 }
 /* contact section ended */
 
+/* footer section started */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px 10px;
+}
+.footer-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer-left{
+    width: 100%;
+    margin:0 40px;
+}
+.footer-left h1{
+    margin-left: 60px;
+
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+.footer-icons span{
+    text-align: center;
+}
+.footer hr{
+    display: block;
+    width: 70%;
+    height: 1px;
+    margin: 20px 130px;
+}
+
+/* footer section ended */
+
+
 
 
 
