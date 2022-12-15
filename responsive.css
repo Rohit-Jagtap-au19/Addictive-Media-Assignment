@@ -10,6 +10,9 @@
     font-size: 15px;
     cursor: pointer;
 }
+.fa-bars{
+    font-size: 20px;
+}
 /* navbar ended */
 
 /* hero banner started */
@@ -188,6 +191,26 @@ hr{
 }
 
 /* about section ended */
+
+
+/* client section started */
+.client{
+    text-align: center;
+    margin: 10px 20px;
+}
+.images{
+    flex-direction:column ;
+}
+
+.images img{
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+/* client section ended */
+
 
 
 

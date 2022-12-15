@@ -31,6 +31,9 @@ a {
     margin-left: 10px;
     cursor: pointer;
 }
+.fa-bars{
+        font-size: 30px;
+}
 .material-symbols-outlined {
     cursor: pointer;
 }
